@@ -1,14 +1,14 @@
 void main(List<String> args) {
-  int desde = 1;
-  int hasta = 10;
-  while (desde < hasta) {
-    print('Iteracion: $desde');
-    ++desde;
+  int numero = 5;
+  int numero2 = 6;
+  while (numero <= numero2) {
+    print('Funcionando: $numero');
+    ++numero;
   }
-  desde = 11;
-  hasta = 10;
+  numero = 15;
+  numero2 = 14;
   do {
-    print('Iteracion: $desde');
-    ++desde;
-  } while (desde < hasta);
+    print('Funcionando: $numero');
+    ++numero;
+  } while (numero < numero2);
 }
