@@ -1,22 +1,13 @@
+//Un if en programación se utiliza para evaluar una expresión condicional:
+//si se cumple la condición (es verdadera), ejecutará un bloque de código.
+//Si es falsa, es posible ejecutar otras sentencias.
 void main(List<String> args) {
-  int edad1 = 15;
-  int edad2 = 18;
+  int numero = 20;
+  int numero2 = 19;
 
-  if (edad1 > edad2) {
-    print("Eres mayor");
+  if (numero > numero2) {
+    print("Numero es mayor que numero 2");
   } else {
-    print("Eres menor");
+    print("Numero es menor que numero 2");
   }
-
-  // bool mayor = edad1 < edad2;
-
-  // if (true == mayor) {
-  //   print("Eres mayor");
-  // } else {
-  //   print("Eres menor");
-  // }
-
-  // bool aprobado = false;
-  // print(aprobado);
-  // print(mayor);
 }
