@@ -1,14 +1,15 @@
+//Esta sentencia sirve para crear muchas condiciones de igualdad
 void main(List<String> args) {
-  String sexo = 'Masculino';
-  switch (sexo) {
-    case 'Femenino':
-      print('Estimada: ');
+  int numero = 2;
+  switch (numero) {
+    case 1:
+      print('Numero 1');
       break;
-    case 'Masculino':
-      print('Estimado: ');
+    case 2:
+      print('Numero 2');
       break;
-    case 'No binario':
-      print('Estimade: ');
+    case 3:
+      print('Numero 3');
       break;
     default:
       print('Hola Mundo');
