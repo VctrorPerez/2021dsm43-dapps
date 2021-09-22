@@ -1,3 +1,5 @@
+//Es una palabra clave que le está diciendo al programa que pruebe alguna condición
+//y active un error si la condición es falsa.
 void main(List<String> args) {
   double numerador = 180;
   double denominador = 10;
