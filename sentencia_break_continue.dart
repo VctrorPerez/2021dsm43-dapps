@@ -1,3 +1,7 @@
+//Concretamente, la sentencia break permite terminar de forma abrupta un bucle
+//y la sentencia continue permite saltarse algunas repeticiones del bucle.
+//La sentencia FOR es una sentencia que implementa un bucle, es decir, que es capaz de
+//repetir un grupo de sentencias un número determinado de veces
 void main(List<String> args) {
   List<String> nombres = [
     'Juan',
