@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
-  TextStyle estiloTexto = new TextStyle(fontSize: 25);
+  final estiloTexto = new TextStyle(fontSize: 25);
+
+  final conteo = 10;
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +19,7 @@ class HomePage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text('Numero de clicks:', style: estiloTexto),
-          Text('0', style: estiloTexto),
+          Text('$conteo', style: estiloTexto),
         ],
       )),
       floatingActionButton: FloatingActionButton(
