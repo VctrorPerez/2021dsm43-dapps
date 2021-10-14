@@ -24,16 +24,23 @@ class _ContadorPageState extends State<ContadorPage> {
           Text('$_conteo', style: _estiloTexto),
         ],
       )),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
-        onPressed: () {
-          print('Hola Mundo');
+      floatingActionButton: _crearBotones(),
+    );
+  }
 
-          setState(() {
-            _conteo++;
-          });
-        },
-      ),
+  Widget _crearBotones() {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.end,
+      children: <Widget>[
+        SizedBox(width: 30),
+        FloatingActionButton(child: Icon(Icons.exposure_zero), onPressed: null),
+        Expanded(child: SizedBox()),
+        FloatingActionButton(child: Icon(Icons.remove), onPressed: null),
+        SizedBox(
+          width: 30.0,
+        ),
+        FloatingActionButton(child: Icon(Icons.add), onPressed: null),
+      ],
     );
   }
 }
